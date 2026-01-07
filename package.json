@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A command line app for getting the sunset and sunrise times at your current location.",
   "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "next-dev": "next",
     "dev": "TZ=America/Santarem npm-run-all -p next-dev storybook",
